@@ -52,5 +52,25 @@ namespace WpfStarter
             MessageBox.Show("Some event happend");
             
         }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            string username = tbUsername.Text;
+            string password = tbPassword.Text;
+            if (string.IsNullOrEmpty(username))
+            {
+                MessageBox.Show("Userrname cannot be empty");
+                tbUsername.Focus();
+            }
+            if (string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Password cannot be empty");
+                tbPassword.Focus();
+            }
+            else
+            {
+                MessageBox.Show($"{username} has {password}");
+            }
+        }
     }
 }
