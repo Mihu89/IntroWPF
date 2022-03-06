@@ -9,7 +9,7 @@
         xmlns:col="clr-namespace:System.Collections;assembly=mscorlib" 
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         
-        Title="Main Window Start" Height="300" Width="500">
+        Title="Main Window Start" Height="350" Width="500">
     <Grid x:Name="myGrid">
 
         <Label Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="157,37,0,0" Width="85"/>
@@ -17,6 +17,8 @@
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="157,77,0,0"/>
         <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="157,120,0,0" Width="85"/>
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="157,160,0,0"/>
-        <Button x:Name="btnLogin" Width="100" Height="30" Margin="157,197,235,22" Background="BlueViolet">MyBtn</Button>
+        <Button x:Name="btnLogin" Width="100" Height="30" Margin="157,203,235,86" Background="BlueViolet">Login</Button>
+        <Button x:Name="btnLogin3" xml:space="preserve" Width="100" Height="30" Margin="284,203,108,86" Background="BlueViolet">MyBtn      Long</Button>
+        <Button x:Name="btnLogin2" Width="100" Height="30" Margin="157,238,235,51" Background="BlueViolet" Content="My long        Btn"/>
     </Grid>
 </Window>
