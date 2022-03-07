@@ -10,20 +10,7 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         
         Title="Main Window Start" Height="350" Width="500">
-    <Grid x:Name="myGrid">
-
-        <Label Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="157,51,0,0" Width="85"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Login Form" VerticalAlignment="Top" Margin="157,16,0,0" RenderTransformOrigin="2.497,-1.083" Height="35" Width="231" FontSize="24" Foreground="#FF169CDA">
-            <TextBlock.OpacityMask>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFAC2020" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBlock.OpacityMask>
-        </TextBlock>
-        <TextBox x:Name="tbUsername" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="157,89,0,0" RenderTransformOrigin="0.492,2.029"/>
-        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="157,120,0,0" Width="85"/>
-        <TextBox x:Name="tbPassword" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="157,160,0,0"/>
-        <Button x:Name="btnLogin" Width="100" Height="30" Margin="157,203,235,86" Background="BlueViolet" Click="btnLogin_Click" Opacity="0.8">Login</Button>
-    </Grid>
+    <Canvas x:Name="myCanvas" Background="Aquamarine">
+        
+    </Canvas>
 </Window>

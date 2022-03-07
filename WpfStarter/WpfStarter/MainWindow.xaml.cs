@@ -32,45 +32,6 @@ namespace WpfStarter
             //myGrid.Children.Add(button);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //MessageBox.Show("Welcome to Wpf lesson One !!!");
-            /*string tbContent = textBox1.Text;
-            if (tbContent != "")
-            {
-                MessageBox.Show(tbContent);
-            }
-            else
-            {
-                MessageBox.Show("Input is empty");
-            }*/
-            
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Some event happend");
-            
-        }
-
-        private void btnLogin_Click(object sender, RoutedEventArgs e)
-        {
-            string username = tbUsername.Text;
-            string password = tbPassword.Text;
-            if (string.IsNullOrEmpty(username))
-            {
-                MessageBox.Show("Userrname cannot be empty");
-                tbUsername.Focus();
-            }
-            if (string.IsNullOrEmpty(password))
-            {
-                MessageBox.Show("Password cannot be empty");
-                tbPassword.Focus();
-            }
-            else
-            {
-                MessageBox.Show($"{username} has {password}");
-            }
-        }
+       
     }
 }
